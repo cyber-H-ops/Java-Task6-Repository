@@ -14,6 +14,6 @@ public abstract class Staff {
         System.out.println("Department: " + department);
         System.out.println("Hours: " + hours);
     }
-    
+
     abstract void patientCare();
 }
