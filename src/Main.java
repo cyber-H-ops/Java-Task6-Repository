@@ -4,5 +4,17 @@ public class Main {
         Staff N = new Nurse("N001", "Maternity", 48);
         Staff P = new Pharmacist("P001", "Pharmacy", 40);
         Staff L = new Labs("L001", "Laboratory", 40);
+
+        D.showInfo();
+        D.patientCare();
+
+        N.showInfo();
+        N.patientCare();
+
+        P.showInfo();
+        P.patientCare();
+
+        L.showInfo();
+        L.patientCare();
     }
 }
