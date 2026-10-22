@@ -8,4 +8,12 @@ public abstract class Staff {
         this.department = department;
         this.hours = hours;
     }
+
+    void showInfo() {
+        System.out.println("ID: " + id);
+        System.out.println("Department: " + department);
+        System.out.println("Hours: " + hours);
+    }
+    
+    abstract void patientCare();
 }
